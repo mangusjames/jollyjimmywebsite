@@ -218,6 +218,11 @@ ul.social-media-list img {
     height: 36px;
 }
 
+ul.social-media-list img:hover {
+    width: 50px;
+    height: 50px;
+}
+
 ul.social-media-list {
     list-style-type: none;
     margin: 0;
