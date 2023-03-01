@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+#background-video {
+  position: fixed;
+  object-fit: cover;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    background-color: black;
+    color: white;
+    font-family: 'Montserrat', arial, sans-serif;
+}
+
+.content {
+    text-align: center;
+    position: relative;
+}
+
+/* Start navbar */
+.navbar {
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    text-transform: uppercase;
+    background-color: black;
+    padding: 10px;
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.navbar-item {
+    color: grey;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.navbar-item:hover {
+    color: white;
+    font-size: 150%;
+}
+
+.navbar-right .navbar-item {
+    border-radius: 30px;
+    border: 2px solid grey;
+    padding: 10px 25px;
+    margin-right: 20px;
+    color: grey;
+}
+
+.navbar-right .navbar-item:hover {
+    border: 2px solid white;
+    color: white;
+    font-size: 150%;
+}
+
+.logo {
+    width: 50px;
+}
+
+.banner {
+    position: relative;
+    display: block;
+    height: 300px;
+    width:800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 600px;
+}
+/* End navbar */
+
+/* Start Casinos page */
+.casinotext {
+    position: relative;
+    padding-left: 10px;
+    font-size: 25px;
+    width: 400px;
+}
+
+.casinologosr1 {
+    margin-top: 100px;
+    position: relative;
+    justify-content: center;
+    display: flex;
+    gap: 50px;
+}
+
+.casinologosr2 {
+    margin-top: 25px;
+    position: relative;
+    justify-content: center;
+    display: flex;
+    gap: 50px;
+}
+.casinologosr3  {
+    margin-top: 25px;
+    position: relative;
+    justify-content: center;
+    display: flex;
+    gap: 50px;
+    margin-bottom: 25px;
+}
+
+.title {
+    text-align: center;
+}
+/* End Casinos page */
+
+/* Start footer */
+.footer {
+    position: relative;
+    height: 350px;
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    padding: 70px 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+.inner-footer {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    width: 1100px;
+    height: 100%;
+}
+
+.inner-footer .logo-container {
+    width: 35%;
+    float: left;
+    height: 100%;
+    display: block;
+}
+  
+.inner-footer .logo-container img {
+    width: 65%;
+    height: auto;
+}
+
+.inner-footer .footer-third {
+    width: calc(21.6666666667% - 20px);
+    margin-right: 10px;
+    float: left;
+    height: 100%;
+}
+
+.inner-footer .footer-third:last-child {
+    margin-right: 0;
+}
+
+.inner-footer .footer-third h1{
+    font-size: 25px;
+    color: white;
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.inner-footer .footer-third a {
+    font-weight: 200px;
+    font-size: 18px;
+    color: grey;
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    padding-bottom: 5px;;
+}
+
+.inner-footer .footer-third a:hover {
+    color: white;
+    font-size: 150%;
+}
+
+.inner-footer .footer-third li {
+    display: inline-block;
+    padding: 0 5px;
+    font-size: 20px;
+}
+
+.inner-footer .footer-third span {
+    color: white;
+    font-size: 16px;
+    font-weight: 200;
+    display: block;
+    width: 100%;
+    padding-top: 20px;
+}
+
+ul.social-media-list img {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: black;
+    width: 36px;
+    height: 36px;
+}
+
+ul.social-media-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.social-media-list img:hover    {
+    
+}
+
+@media(max-width: 600px) {
+    .footer .inner-footer {
+        width: 90%;
+    }
+    .inner .logo-container, .inner-footer .footer-third {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
+/* End footer */
+
+/* comment */
