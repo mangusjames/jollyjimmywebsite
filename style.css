@@ -70,6 +70,7 @@ body {
 }
 
 .navbar-right .navbar-item {
+    background-color: black;
     border-radius: 30px;
     border: 2px solid grey;
     padding: 10px 25px;
@@ -134,6 +135,45 @@ body {
     text-align: center;
 }
 /* End Casinos page */
+
+/* Start Socials page*/
+body {
+    background-color: rgb(168, 0, 0);
+}
+
+.socials-content {
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+}
+
+.social-button button {
+    color: grey;
+    background-color: black;
+    cursor: pointer;
+    border-radius: 20px;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    font-size: 72px;
+    width: 1000px;
+    height: 100px;
+    gap: 25px;
+}
+
+.social-button button:hover {
+    font-size: 85px;
+    color: white;
+}
+
+/* End socials page */
 
 /* Start footer */
 .footer {
@@ -250,4 +290,3 @@ ul.social-media-list img:hover    {
 }
 /* End footer */
 
-/* comment */
