@@ -63,6 +63,12 @@ body {
     font-size: 150%;
 }
 
+/* Works but makes whole navbar get bigger */
+.navbar-item img:hover {
+    width: 65px;
+    height: 65px;
+}
+
 .navbar-right .navbar-item {
     border-radius: 30px;
     border: 2px solid grey;
