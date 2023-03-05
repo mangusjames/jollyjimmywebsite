@@ -5,6 +5,7 @@
     text-decoration: none;
 }
 
+/*
 #background-video {
   position: fixed;
   object-fit: cover;
@@ -13,7 +14,9 @@
   min-width: 100%;
   min-height: 100%;
 }
+*/
 
+/* Start home page */
 body {
     width: 100%;
     margin: 0;
@@ -25,7 +28,108 @@ body {
 .content {
     text-align: center;
     position: relative;
+    margin-bottom: 25px;
 }
+
+.banner {
+    position: relative;
+    display: block;
+    height: 300px;
+    width:800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+/* End home page */
+
+/* Start Casinos page */
+.casinotext {
+    position: relative;
+    padding-left: 10px;
+    font-size: 25px;
+    width: 400px;
+}
+
+.casinologosr1 {
+    margin-top: 100px;
+    position: relative;
+    justify-content: center;
+    display: flex;
+    gap: 50px;
+}
+
+.casinologosr2 {
+    margin-top: 25px;
+    position: relative;
+    justify-content: center;
+    display: flex;
+    gap: 50px;
+}
+.casinologosr3  {
+    margin-top: 25px;
+    position: relative;
+    justify-content: center;
+    display: flex;
+    gap: 50px;
+    margin-bottom: 25px;
+}
+
+.title {
+    text-align: center;
+    margin-top: 150px;
+}
+/* End Casinos page */
+
+/* Start Socials page*/
+body {
+    background-color: rgb(100, 0, 0);
+}
+
+.socials-content {
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+}
+
+.social-button button {
+    color: grey;
+    background-color: black;
+    cursor: pointer;
+    border-radius: 20px;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    font-size: 72px;
+    width: 1000px;
+    height: 100px;
+    gap: 25px;
+}
+
+.social-button button:hover {
+    font-size: 85px;
+    color: white;
+}
+
+/* End socials page */
+
+/* start live streams page */
+.coming-soon {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 500px;
+}
+/* end live streams page */
+
+/* start videos page */
+
+/* end videos page */
 
 /* Start navbar */
 .navbar {
@@ -88,92 +192,7 @@ body {
     width: 50px;
 }
 
-.banner {
-    position: relative;
-    display: block;
-    height: 300px;
-    width:800px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 600px;
-}
 /* End navbar */
-
-/* Start Casinos page */
-.casinotext {
-    position: relative;
-    padding-left: 10px;
-    font-size: 25px;
-    width: 400px;
-}
-
-.casinologosr1 {
-    margin-top: 100px;
-    position: relative;
-    justify-content: center;
-    display: flex;
-    gap: 50px;
-}
-
-.casinologosr2 {
-    margin-top: 25px;
-    position: relative;
-    justify-content: center;
-    display: flex;
-    gap: 50px;
-}
-.casinologosr3  {
-    margin-top: 25px;
-    position: relative;
-    justify-content: center;
-    display: flex;
-    gap: 50px;
-    margin-bottom: 25px;
-}
-
-.title {
-    text-align: center;
-}
-/* End Casinos page */
-
-/* Start Socials page*/
-body {
-    background-color: rgb(168, 0, 0);
-}
-
-.socials-content {
-    margin-top: 100px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    text-align: center;
-}
-
-.social-button button {
-    color: grey;
-    background-color: black;
-    cursor: pointer;
-    border-radius: 20px;
-    display: block;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    justify-content: center;
-    text-align: center;
-    font-size: 72px;
-    width: 1000px;
-    height: 100px;
-    gap: 25px;
-}
-
-.social-button button:hover {
-    font-size: 85px;
-    color: white;
-}
-
-/* End socials page */
 
 /* Start footer */
 .footer {
@@ -273,10 +292,6 @@ ul.social-media-list {
     list-style-type: none;
     margin: 0;
     padding: 0;
-}
-
-ul.social-media-list img:hover    {
-    
 }
 
 @media(max-width: 600px) {
