@@ -28,10 +28,33 @@
                 <div class="navbar-item">videos</div>
             </a>
         </div>
-        <div class="navbar-right">
-            <button class="navbar-item">CONTACT</button>
+        <div class="center">
+            <input type="checkbox" id="click"> 
+            <label for="click" class="click-me">CONTACT</label>
+            <div id="contactpage"class="content1">
+                <div class="text">
+                    CONTACT
+                </div>
+                <label for="click" id="temp"></label>
+                <form>
+                    <label for="name">Name</label>
+                    <input type="text" placeholder="Enter name here..." id="name" required></label>
+
+                    <label for="email">Email</label>
+                    <input type="email" placeholder="Enter email here..." id="email" required></label>
+
+                    <label for="message">Message</label>
+                    <input type="text" placeholder="Type your message here..." id="message" required></label>
+
+                    <button class="submit" type="submit">Submit</button>
+                    <div class="btn-close">
+                        <button type="button" aria-label="Close" class="close-button">X</button>
+                    </div>
+                    
+                </form>
+            </div>
         </div>
+
 	</div>
-    
 </body>
 </html>
