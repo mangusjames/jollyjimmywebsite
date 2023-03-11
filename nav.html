@@ -32,9 +32,7 @@
             <input type="checkbox" id="click"> 
             <label for="click" class="click-me">CONTACT</label>
             <div id="contactpage"class="content1">
-                <div class="text">
-                    CONTACT
-                </div>
+                <div class="text">CONTACT</div>
                 <label for="click" id="temp"></label>
                 <form>
                     <label for="name">Name</label>
@@ -47,9 +45,8 @@
                     <input type="text" placeholder="Type your message here..." id="message" required></label>
 
                     <button class="submit" type="submit">Submit</button>
-                    <div class="btn-close">
-                        <button type="button" aria-label="Close" class="close-button">X</button>
-                    </div>
+                
+                    <button class="btn-close" onclick="document.getElementById('contactpage').style.visibility='hidden'">X</button>
                     
                 </form>
             </div>
