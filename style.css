@@ -313,7 +313,7 @@ ul.social-media-list {
     transform:translate(-50%,-50%);
 }
 
-.click-me {
+.contact {
     background-color: black;
     border-radius: 30px;
     border: 2px solid grey;
@@ -323,11 +323,7 @@ ul.social-media-list {
     color: grey;
 }
 
-#click {
-    display: none;
-}
-
-.click-me:hover {
+.contact:hover {
     border: 2px solid white;
     color: white;
     font-size: 150%;
@@ -345,24 +341,6 @@ ul.social-media-list {
     border-radius: 5px;
 }
 
-#temp {
-    position: absolute;
-    right: 10px;
-    top: 20px;
-    font-size: 25px;
-    background: #dde1e7;
-    padding: 3px;
-    padding-left: 11px;
-    padding-right: 11px;
-    border-radius: 50%;
-    cursor: pointer;
-}
-
-#click:checked~.content1 {
-    opacity: 1;
-    visibility: visible;
-}
-
 .text {
     font-size: 30px;
     color: #000000;
@@ -373,6 +351,10 @@ ul.social-media-list {
 
 form {
     margin-top: 40px;
+}
+
+input {
+    padding-left: 5px;
 }
 
 label {
@@ -396,7 +378,7 @@ input {
 
 ::placeholder {
     color: #4b4e4d;
-    padding-left: 10px;
+    padding-left: 5px;
 }
 
 .submit {
@@ -411,17 +393,24 @@ input {
     cursor: pointer;
 }
 
-.btn-close {
-    position: absolute;
-    top: 0;
-    right: 5px;
+.submit:hover {
+    background-color: green;
 }
 
-
-.close {
-    color: red;
+.btn-close {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    cursor: pointer;
+    color: black;
     border: none;
     cursor: pointer;
     background-color: #dde1e7;
+    font-size: 20px;
+}
+
+.btn-close:hover {
+    font-size: 20px;
+    color: red;
 }
 /* End contact form */
