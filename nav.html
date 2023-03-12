@@ -29,11 +29,9 @@
             </a>
         </div>
         <div class="center">
-            <input type="checkbox" id="click"> 
-            <label for="click" class="click-me">CONTACT</label>
+            <button class="contact" onclick="document.getElementById('contactpage').style.visibility='visible'" type="button">CONTACT</button>
             <div id="contactpage"class="content1">
                 <div class="text">CONTACT</div>
-                <label for="click" id="temp"></label>
                 <form>
                     <label for="name">Name</label>
                     <input type="text" placeholder="Enter name here..." id="name" required></label>
@@ -46,7 +44,8 @@
 
                     <button class="submit" type="submit">Submit</button>
                 
-                    <button class="btn-close" onclick="document.getElementById('contactpage').style.visibility='hidden'">X</button>
+                    <button class="btn-close" onclick="document.getElementById('contactpage').style.visibility='hidden'" type="button">&#10006;</button>
+                    
                     
                 </form>
             </div>
