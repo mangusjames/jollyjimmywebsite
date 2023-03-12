@@ -32,15 +32,15 @@
             <button class="contact" onclick="document.getElementById('contactpage').style.visibility='visible'" type="button">CONTACT</button>
             <div id="contactpage"class="content1">
                 <div class="text">CONTACT</div>
-                <form>
+                <form action="https://formsubmit.co/jollyjimmyttv@gmail.com" method="POST">
                     <label for="name">Name</label>
-                    <input type="text" placeholder="Enter name here..." id="name" required></label>
+                    <input name="Name" type="text" placeholder="Enter name here..." id="name" required></label>
 
                     <label for="email">Email</label>
-                    <input type="email" placeholder="Enter email here..." id="email" required></label>
+                    <input name="Email" type="email" placeholder="Enter email here..." id="email" required></label>
 
                     <label for="message">Message</label>
-                    <input type="text" placeholder="Type your message here..." id="message" required></label>
+                    <input name="Message" type="text" placeholder="Type your message here..." id="message" required></label>
 
                     <button class="submit" type="submit">Submit</button>
                 
@@ -52,5 +52,13 @@
         </div>
 
 	</div>
+    <script>
+        function ClearFields() {
+
+        document.getElementById("name").value = "";
+        document.getElementById("email").value = "";
+        document.getElementById("email").value = "";
+    }
+    </script> 
 </body>
 </html>
