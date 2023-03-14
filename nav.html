@@ -34,17 +34,17 @@
                 <div class="text">CONTACT</div>
                 <form action="https://formsubmit.co/jollyjimmyttv@gmail.com" method="POST">
                     <label for="name">Name</label>
-                    <input name="Name" type="text" placeholder="Enter name here..." id="name" required></label>
+                    <input id="name" name="Name" type="text" placeholder="Enter name here..." id="name" required></label>
 
                     <label for="email">Email</label>
-                    <input name="Email" type="email" placeholder="Enter email here..." id="email" required></label>
+                    <input id="email" name="Email" type="email" placeholder="Enter email here..." id="email" required></label>
 
                     <label for="message">Message</label>
-                    <input name="Message" type="text" placeholder="Type your message here..." id="message" required></label>
+                    <input id="message" name="Message" type="text" placeholder="Type your message here..." id="message" required></label>
 
                     <button class="submit" type="submit">Submit</button>
                 
-                    <button class="btn-close" onclick="document.getElementById('contactpage').style.visibility='hidden'" type="button">&#10006;</button>
+                    <button class="btn-close" onclick="document.getElementById('contactpage').style.visibility='hidden'; document.getElementById('name').value=''; document.getElementById('email').value=''; document.getElementById('message').value=''" type="button">&#10006;</button>
                     
                     
                 </form>
@@ -52,13 +52,5 @@
         </div>
 
 	</div>
-    <script>
-        function ClearFields() {
-
-        document.getElementById("name").value = "";
-        document.getElementById("email").value = "";
-        document.getElementById("email").value = "";
-    }
-    </script> 
 </body>
 </html>
