@@ -108,7 +108,7 @@ body {
 }
 /* End Casinos page */
 
-/* Start Socials page*/
+/* Start Socials page */
 body {
     background-color: rgb(100, 0, 0);
 }
@@ -223,6 +223,115 @@ body {
     width: 50px;
 }
 
+/* Start contact form */
+.content1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+}
+
+.contact {
+    background-color: black;
+    border-radius: 30px;
+    border: 2px solid grey;
+    padding: 10px 25px;
+    margin-right: 20px;
+    margin-top: 0px;
+    color: grey;
+}
+
+.contact:hover {
+    border: 2px solid white;
+    color: white;
+    font-size: 150%;
+    cursor: pointer;
+}
+
+.content1 {
+    margin-top: 25%;
+    visibility: hidden;
+    width: 400px;
+    height: auto;
+    background: #dde1e7;
+    padding: 30px 35px 40px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.text {
+    font-size: 30px;
+    color: #000000;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+form {
+    margin-top: 40px;
+}
+
+input {
+    padding-left: 5px;
+}
+
+label {
+    display: block;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+}
+
+input {
+    display: block;
+    height: 43px;
+    width: 100%;
+    border-radius: 3px;
+    border: none;
+    margin-top: 8px;
+    font-size: 14px;
+    border: none;
+}
+
+::placeholder {
+    color: #4b4e4d;
+    padding-left: 5px;
+}
+
+.submit {
+    width: 100%;
+    margin-top: 35px;
+    padding: 12px;
+    background: white;
+    border: none;
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 32px;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: green;
+}
+
+.btn-close {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    cursor: pointer;
+    color: black;
+    border: none;
+    cursor: pointer;
+    background-color: #dde1e7;
+    font-size: 20px;
+}
+
+.btn-close:hover {
+    font-size: 20px;
+    color: red;
+}
+/* End contact form */
 /* End navbar */
 
 /* Start footer */
@@ -334,114 +443,6 @@ ul.social-media-list {
         margin-bottom: 30px;
     }
 }
+
 /* End footer */
 
-/* Start contact form */
-.content1 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform:translate(-50%,-50%);
-}
-
-.contact {
-    background-color: black;
-    border-radius: 30px;
-    border: 2px solid grey;
-    padding: 10px 25px;
-    margin-right: 20px;
-    margin-top: 0px;
-    color: grey;
-}
-
-.contact:hover {
-    border: 2px solid white;
-    color: white;
-    font-size: 150%;
-    cursor: pointer;
-}
-
-.content1 {
-    margin-top: 500px;
-    visibility: hidden;
-    width: 400px;
-    height: auto;
-    background: #dde1e7;
-    padding: 30px 35px 40px;
-    box-sizing: border-box;
-    border-radius: 5px;
-}
-
-.text {
-    font-size: 30px;
-    color: #000000;
-    font-weight: 600;
-    text-align: center;
-    letter-spacing: 2px;
-}
-
-form {
-    margin-top: 40px;
-}
-
-input {
-    padding-left: 5px;
-}
-
-label {
-    display: block;
-    margin-top: 30px;
-    font-size: 16px;
-    font-weight: 500;
-    color: black;
-}
-
-input {
-    display: block;
-    height: 43px;
-    width: 100%;
-    border-radius: 3px;
-    border: none;
-    margin-top: 8px;
-    font-size: 14px;
-    border: none;
-}
-
-::placeholder {
-    color: #4b4e4d;
-    padding-left: 5px;
-}
-
-.submit {
-    width: 100%;
-    margin-top: 35px;
-    padding: 12px;
-    background: white;
-    border: none;
-    font-size: 17px;
-    font-weight: 600;
-    margin-bottom: 32px;
-    cursor: pointer;
-}
-
-.submit:hover {
-    background-color: green;
-}
-
-.btn-close {
-    position: absolute;
-    top: 5px;
-    right: 10px;
-    cursor: pointer;
-    color: black;
-    border: none;
-    cursor: pointer;
-    background-color: #dde1e7;
-    font-size: 20px;
-}
-
-.btn-close:hover {
-    font-size: 20px;
-    color: red;
-}
-/* End contact form */
