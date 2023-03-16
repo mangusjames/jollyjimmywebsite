@@ -387,7 +387,7 @@ input {
     font-size: 25px;
     color: white;
     display: block;
-    width: 100%;
+    width: 120%;
     margin-bottom: 20px;
 }
 
@@ -450,5 +450,9 @@ ul.social-media-list {
     }
 }
 
+.gamble-aware {
+    width: 200px;
+    height: 100px;
+}
 /* End footer */
 
