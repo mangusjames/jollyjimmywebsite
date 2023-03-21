@@ -34,15 +34,18 @@ body {
 .banner {
     position: relative;
     display: block;
-    height: 30rem;
-    width:80rem;
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
+    max-width:100%;
+    height:auto;
+    width: 50rem;
 }
 
 .welcome {
     font-size: 50px;
+    max-width:100%;
+    height:auto;
 }
 
 .text-box {
@@ -55,6 +58,8 @@ body {
   margin-bottom: 40px;
   padding-left: 10px;
   padding-right: 10px;
+  max-width:100%;
+  height:auto;
 }
 
 .top-box {
@@ -69,28 +74,38 @@ body {
     padding-right: 10px;
     margin-left: 5px;
     margin-right: 5px;
+    max-width:100%;
+    height:auto;
   }
 
 .vpn-title, .casino-title {
     font-size: 50px;
     margin-top: 20px;
     margin-bottom: 10px;
+    max-width:100%;
+    height:auto;
 }
 
 .intro, .vpn, .casino-desc {
     font-size: 35px;
     margin-top: 20px;
     margin-bottom: 21px;
+    max-width:100%;
+    height:auto;
 }
 
 .intro a, .vpn a, .casino-desc a {
   color: white;
   font-weight: bold;
+  max-width:100%;
+  height:auto;
 }
 
 .vpn-image {
     width: 648px;
     height: 360px;
+    max-width:100%;
+    height:auto;
 }
 /* End home page */
 
@@ -100,12 +115,16 @@ body {
     padding-left: 10px;
     font-size: 25px;
     width: 400px;
+    max-width:100%;
+    height:auto;
 }
 
 .p {
     text-align: center;
     font-size: 20px;
     margin-top: 10px;
+    max-width:100%;
+    height:auto;
 }
 
 .casinologosr1 {
@@ -114,6 +133,8 @@ body {
     justify-content: center;
     display: flex;
     gap: 50px;
+    max-width:100%;
+    height:auto;
 }
 
 .casinologosr2 {
@@ -122,6 +143,8 @@ body {
     justify-content: center;
     display: flex;
     gap: 50px;
+    max-width:100%;
+    height:auto;
 }
 .casinologosr3  {
     margin-top: 25px;
@@ -130,11 +153,15 @@ body {
     display: flex;
     gap: 50px;
     margin-bottom: 25px;
+    max-width:100%;
+    height:auto;
 }
 
 .title {
     text-align: center;
     margin-top: 100px;
+    max-width:100%;
+    height:auto;
 }
 /* End Casinos page */
 
@@ -149,6 +176,8 @@ body {
     margin-right: auto;
     display: block;
     text-align: center;
+    max-width:100%;
+    height:auto;
 }
 
 .social-button button {
@@ -166,12 +195,14 @@ body {
     width: 750px;
     height: 75px;
     padding-right: 60px;
+    
 }
 
 .social-button button:hover img {
     width: 100px;
     height: 65px;
     padding-top: auto;
+    
 }
 
 .social-button button:hover {
@@ -180,6 +211,7 @@ body {
     font-size: 65px;
     color: white;
     border: 2px solid white;
+   
 }
 
 .social-icons {
@@ -188,6 +220,7 @@ body {
     float: left;
     padding-top: 8px; 
     padding-right: 0px;
+    
 }
 
 /* End socials page */
@@ -197,11 +230,15 @@ body {
     text-align: center;
     margin-top: 100px;
     margin-bottom: 500px;
+    max-width:100%;
+    height:auto;
 }
 
 .coming-soon a {
     color: white;
     font-weight: bold;
+    max-width:100%;
+    height:auto;
 }
 /* end live streams page */
 
@@ -215,6 +252,8 @@ body {
     text-align: center;
     margin-top: 100px;
     margin-bottom: 500px;
+    max-width:100%;
+    height:auto;
 }
 /* end bonus hunts page*/
 
@@ -234,6 +273,8 @@ body {
     text-transform: uppercase;
     background-color: black;
     padding: 10px;
+    max-width:100%;
+    height:auto;
 }
 
 .navbar-left {
@@ -241,23 +282,30 @@ body {
     align-items: center;
     flex-wrap: wrap;
     flex-direction: row;
+    max-width:100%;
+    height:auto;
 }
 
 .navbar-item {
     color: grey;
     margin-left: 20px;
     cursor: pointer;
+    max-width:100%;
+    height:auto;
 }
 
 .navbar-item:hover {
     color: white;
     font-size: 150%;
+    max-width:100%;
+    height:auto;
 }
 
-/* Works but makes whole navbar get bigger */
 .navbar-item img:hover {
     width: 65px;
     height: 65px;
+    max-width:100%;
+    height:auto;
 }
 
 .navbar-right .navbar-item {
@@ -267,16 +315,22 @@ body {
     padding: 10px 25px;
     margin-right: 20px;
     color: grey;
+    max-width:100%;
+    height:auto;
 }
 
 .navbar-right .navbar-item:hover {
     border: 2px solid white;
     color: white;
     font-size: 150%;
+    max-width:100%;
+    height:auto;
 }
 
 .logo {
     width: 50px;
+    max-width:100%;
+    height:auto;
 }
 
 /* Start contact form */
@@ -285,6 +339,8 @@ body {
     top: 50%;
     left: 50%;
     transform:translate(-50%,-50%);
+    max-width:100%;
+    height:auto;
 }
 
 .contact {
@@ -295,6 +351,8 @@ body {
     margin-right: 20px;
     margin-top: 0px;
     color: grey;
+    max-width:100%;
+    height:auto;
 }
 
 .contact:hover {
@@ -302,6 +360,8 @@ body {
     color: white;
     font-size: 150%;
     cursor: pointer;
+    max-width:100%;
+    height:auto;
 }
 
 .content1 {
@@ -313,6 +373,8 @@ body {
     padding: 30px 35px 40px;
     box-sizing: border-box;
     border-radius: 5px;
+    max-width:100%;
+    height:auto;
 }
 
 .text {
@@ -321,10 +383,13 @@ body {
     font-weight: 600;
     text-align: center;
     letter-spacing: 2px;
+    max-width:100%;
+    height:auto;
 }
 
 form {
     margin-top: 40px;
+    
 }
 
 input {
@@ -337,6 +402,7 @@ label {
     font-size: 16px;
     font-weight: 500;
     color: black;
+    
 }
 
 input {
@@ -348,11 +414,13 @@ input {
     margin-top: 8px;
     font-size: 14px;
     border: none;
+   
 }
 
 ::placeholder {
     color: #4b4e4d;
     padding-left: 5px;
+    
 }
 
 .submit {
@@ -381,11 +449,15 @@ input {
     cursor: pointer;
     background-color: #dde1e7;
     font-size: 20px;
+    max-width:100%;
+    height:auto;
 }
 
 .btn-close:hover {
     font-size: 20px;
     color: red;
+    max-width:100%;
+    height:auto;
 }
 /* End contact form */
 /* End navbar */
@@ -400,6 +472,8 @@ input {
     padding: 70px 0;
     box-sizing: border-box;
     background-color: black;
+    max-width:100%;
+    height:auto;
 }
 
 .inner-footer {
@@ -408,6 +482,8 @@ input {
     margin: 0 auto;
     width: 1100px;
     height: 100%;
+    max-width:100%;
+    height:auto;
 }
 
 .inner-footer .logo-container {
@@ -415,11 +491,15 @@ input {
     float: left;
     height: 100%;
     display: block;
+    max-width:100%;
+    height:auto;
 }
   
 .inner-footer .logo-container img {
     width: 65%;
     height: auto;
+    max-width:100%;
+    height:auto;
 }
 
 .inner-footer .footer-third {
@@ -427,10 +507,14 @@ input {
     margin-right: 10px;
     float: left;
     height: 100%;
+    max-width:100%;
+    height:auto;
 }
 
 .inner-footer .footer-third:last-child {
     margin-right: 0;
+    max-width:100%;
+    height:auto;
 }
 
 .inner-footer .footer-third h1{
@@ -439,6 +523,7 @@ input {
     display: block;
     width: 120%;
     margin-bottom: 20px;
+
 }
 
 .inner-footer .footer-third a {
@@ -449,17 +534,20 @@ input {
     width: 100%;
     margin-bottom: 20px;
     padding-bottom: 5px;;
+    
 }
 
 .inner-footer .footer-third a:hover {
     color: white;
     font-size: 150%;
+    
 }
 
 .inner-footer .footer-third li {
     display: inline-block;
     padding: 0 5px;
     font-size: 20px;
+    
 }
 
 .inner-footer .footer-third span {
@@ -469,6 +557,7 @@ input {
     display: block;
     width: 100%;
     padding-top: 20px;
+    
 }
 
 ul.social-media-list img {
@@ -477,31 +566,330 @@ ul.social-media-list img {
     background-color: black;
     width: 36px;
     height: 36px;
+    
 }
 
 ul.social-media-list img:hover {
     width: 50px;
     height: 50px;
+    
 }
 
 ul.social-media-list {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    
 }
 
 @media(max-width: 600px) {
     .footer .inner-footer {
         width: 90%;
+    
     }
     .inner .logo-container, .inner-footer .footer-third {
         width: 100%;
         margin-bottom: 30px;
+        
     }
 }
 
 .gamble-aware {
     width: 200px;
     height: 100px;
+
 }
 /* End footer */
+
+/* Mobile stuff */
+@media screen and (max-width: 768px) {
+    /* Start home page */
+body {
+    width: 100%;
+    margin: 0;
+    background-color: black;
+    color: white;
+    font-family: 'Montserrat', arial, sans-serif;
+}
+
+.content {
+    text-align: center;
+    position: relative;
+    margin-bottom: 2%;
+    max-width: 100%;
+}
+
+.banner {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50vw;
+    max-width:100%;
+    height:auto;
+    width: 50rem;
+}
+
+.welcome {
+    font-size: 10vw;
+    max-width:100%;
+    height:auto;
+}
+
+.text-box {
+  background: black;
+  border-radius: 1vw;
+  color: #fff;
+  display:inline-block;
+  max-width:100%;
+  height:auto;
+}
+
+.top-box {
+    background: black;
+    border-radius: 50px;
+    color: #fff;
+    display:inline-block;
+    max-width:100%;
+    height:auto;
+  }
+
+.vpn-title, .casino-title {
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    max-width:100%;
+    height:auto;
+}
+
+.intro, .vpn, .casino-desc {
+    font-size: 35px;
+    margin-top: 20px;
+    margin-bottom: 21px;
+    max-width:100%;
+    height:auto;
+}
+
+.intro a, .vpn a, .casino-desc a {
+  color: white;
+  font-weight: bold;
+  max-width:100%;
+  height:auto;
+}
+
+.vpn-image, .casino-image {
+    width: 648px;
+    height: 360px;
+    max-width:100%;
+    height:auto;
+}
+
+
+/* End home page */
+
+/* Start navbar */
+.navbar {
+    z-index: 1;
+    position: fixed;
+    width: 99%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    text-transform: uppercase;
+    background-color: black;
+    padding: 10px;
+    max-width:100%;
+    height:auto;
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    max-width:100%;
+    height:auto;
+}
+
+.navbar-item {
+    color: grey;
+    margin-left: 20px;
+    cursor: pointer;
+    max-width:100%;
+    height:auto;
+}
+
+.navbar-item:hover {
+    color: white;
+    font-size: 150%;
+    max-width:100%;
+    height:auto;
+}
+
+.navbar-item img:hover {
+    width: 65px;
+    height: 65px;
+    max-width:100%;
+    height:auto;
+}
+
+.navbar-right .navbar-item {
+    background-color: black;
+    border-radius: 30px;
+    border: 2px solid grey;
+    padding: 10px 25px;
+    margin-right: 20px;
+    color: grey;
+    max-width:100%;
+    height:auto;
+}
+
+.navbar-right .navbar-item:hover {
+    border: 2px solid white;
+    color: white;
+    font-size: 150%;
+    max-width:100%;
+    height:auto;
+}
+
+.logo {
+    width: 50px;
+    max-width:100%;
+    height:auto;
+}
+
+/* Start contact form */
+.content1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    max-width:100%;
+    height:auto;
+}
+
+.contact {
+    background-color: black;
+    border-radius: 30px;
+    border: 2px solid grey;
+    padding: 10px 25px;
+    margin-right: 20px;
+    margin-top: 0px;
+    color: grey;
+    max-width:100%;
+    height:auto;
+}
+
+.contact:hover {
+    border: 2px solid white;
+    color: white;
+    font-size: 150%;
+    cursor: pointer;
+    max-width:100%;
+    height:auto;
+}
+
+.content1 {
+    margin-top: 25%;
+    visibility: hidden;
+    width: 400px;
+    height: auto;
+    background: #dde1e7;
+    padding: 30px 35px 40px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    max-width:100%;
+    height:auto;
+}
+
+.text {
+    font-size: 30px;
+    color: #000000;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 2px;
+    max-width:100%;
+    height:auto;
+}
+
+form {
+    margin-top: 40px;
+    
+}
+
+input {
+    padding-left: 5px;
+}
+
+label {
+    display: block;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+    
+}
+
+input {
+    display: block;
+    height: 43px;
+    width: 100%;
+    border-radius: 3px;
+    border: none;
+    margin-top: 8px;
+    font-size: 14px;
+    border: none;
+   
+}
+
+::placeholder {
+    color: #4b4e4d;
+    padding-left: 5px;
+    
+}
+
+.submit {
+    width: 100%;
+    margin-top: 35px;
+    padding: 12px;
+    background: white;
+    border: none;
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 32px;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: green;
+}
+
+.btn-close {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    cursor: pointer;
+    color: black;
+    border: none;
+    cursor: pointer;
+    background-color: #dde1e7;
+    font-size: 20px;
+    max-width:100%;
+    height:auto;
+}
+
+.btn-close:hover {
+    font-size: 20px;
+    color: red;
+    max-width:100%;
+    height:auto;
+}
+/* End contact form */
+/* End navbar */
+
+}
