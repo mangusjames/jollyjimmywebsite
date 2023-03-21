@@ -34,8 +34,8 @@ body {
 .banner {
     position: relative;
     display: block;
-    height: 300px;
-    width:800px;
+    height: 30rem;
+    width:80rem;
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
@@ -505,4 +505,3 @@ ul.social-media-list {
     height: 100px;
 }
 /* End footer */
-
