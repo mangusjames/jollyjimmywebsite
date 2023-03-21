@@ -198,11 +198,25 @@ body {
     margin-top: 100px;
     margin-bottom: 500px;
 }
+
+.coming-soon a {
+    color: white;
+    font-weight: bold;
+}
 /* end live streams page */
 
 /* start videos page */
 
 /* end videos page */
+
+
+/* Start bonus hunts page*/
+.test {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 500px;
+}
+/* end bonus hunts page*/
 
 /* Start navbar */
 .navbar {

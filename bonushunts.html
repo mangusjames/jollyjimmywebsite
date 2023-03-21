@@ -6,15 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link type="text/css" rel="stylesheet" href="style.css">
     <title>Jolly Jimmy</title>
-    <link rel="icon" href="images/jjlogo.png">
-    
+    <link rel="icon" href="Images/jjlogo.png">
 </head>
 <body>
     <script id="replace_with_navbar" src="nav.js"></script>
 
-    <div class="coming-soon">
-        <h1>ALL LIVE STREAMS CAN BE FOUND AT <a target="_blank" href="https://kick.com/jollyjimmy">kick.com/jollyjimmy</a>. </h1>
-    </div>
+    <h1 class="test">COMING SOON</h1>
+
+    <ul></ul>
+
+    <script>
+        fetch('https://bht.bet/api/zGmeGqPCFRiJZQGUGrmn52PAaFRovBcl/stats')
+        .then(res => {
+           return res.json();
+        })
+        .then(data => {
+            console.log(data);
+        });
+    </script>
+
     <script id="replace_with_footer" src="footer.js"></script>
 </body>
 </html>
