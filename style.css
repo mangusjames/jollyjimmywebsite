@@ -81,7 +81,7 @@
   position: relative;
   padding-left: 10px;
   font-size: 25px;
-  width: 400px;
+  width: 25vw;
   max-width:100%;
   height:auto;
 }
@@ -92,6 +92,10 @@
   margin-top: 10px;
   max-width:100%;
   height:auto;
+}
+
+.casino-logo {
+  width: 400px;
 }
 
 .casinologosr1 {
@@ -132,41 +136,67 @@
 }
 
 @media(max-width: 600px) {
-  .title {
+
+  .casinotext {
+    margin-top: 10px;
+    position: relative;
+    font-size: 25px;
+    width: 80%;
     text-align: center;
-    margin-top: 35vw;
-    max-width:100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .p {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
     height:auto;
   }
+
+  .title {
+    text-align: center;
+    margin-top: 40vw;
+    height:auto;
+  }
+
+.casino-logo {
+  width: 100%;
+}
 
   .casinologosr1 {
     margin-top: 30px;
     position: relative;
-    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
     display: grid;
     gap: 50px;
-    max-width:100%;
-    height:auto;
+
   }
   
   .casinologosr2 {
-    margin-top: 25px;
+    margin-top: 20px;
     position: relative;
-    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
     display: grid;
     gap: 50px;
     max-width:100%;
     height:auto;
+    margin-left: auto;
+    margin-right: auto;
   }
   .casinologosr3  {
-    margin-top: 25px;
+    margin-top: 20px;
     position: relative;
-    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
     display: grid;
     gap: 50px;
-    margin-bottom: 25px;
     max-width:100%;
     height:auto;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 /* End Casinos page */
@@ -237,7 +267,7 @@ body {
     margin-right: auto;
     display: block;
     text-align: center;
-    max-width:100%;
+    width:90%;
     height:auto;
 }
 
@@ -253,7 +283,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     font-size: 10vw;
-    width: 100vw;
+    width: 90vw;
     height: 75px;
     padding-right: 60px;
     
@@ -493,8 +523,10 @@ input {
     height: auto;
 }
 
-@media screen and (max-width: 767px) {
-  
+@media screen and (max-width: 600px) {
+ /* * {
+    width: 100%;
+  }*/
 }
 
 
@@ -525,13 +557,7 @@ input {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-  }
-  
-  .footer-third {
-    
-
-    
-  }
+  } 
   
   .inner-footer .footer-third:last-child {
     margin-right: 5vw;
@@ -551,6 +577,8 @@ input {
     display: block;
     margin-bottom: 20px;
     padding-bottom: 5px;
+    justify-content: center;
+    text-align: center;
   }
   
   .inner-footer .footer-third a:hover {
@@ -568,7 +596,8 @@ input {
     font-size: 16px;
     font-weight: 200;
     display: block;
-    padding-top: 20px;
+    padding-top: 5vw;
+    text-align: center;
   }
   
   ul.social-media-list img {
@@ -586,13 +615,10 @@ input {
   
   ul.social-media-list {
     list-style-type: none;
-    margin-left: 0px;
-    margin-right: 0px;
-    padding: 0px;
+    margin-left: -25px;
   }
   
   @media(max-width: 600px) {
-
     .footer-logo {
       width: 40%;
       margin-left: auto;
